@@ -1,0 +1,41 @@
+.roller {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 60vh;
+}
+.boy {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: scale-down;
+  border-top: 50px solid blue;
+  border-right: 50px solid #fff;
+  border-bottom: 50px solid #fff;
+  border-left: 50px solid blue;
+}
+.boy:hover {
+  transform: rotate(360deg);
+  transition: 1.5s ease-in-out;
+}
+.sale {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: scale-down;
+  border-top: 50px solid #fff;
+  border-right: 50px solid orange;
+  border-bottom: 50px solid orange;
+  border-left: 50px solid #fff;
+}
+.sale:hover {
+  transform: rotate(-360deg);
+  transition: 1.5s ease-in-out;
+}
+.boy {
+  background-color: #ff47d9;
+}
+.sale {
+  background-color: #142e59;
+}
